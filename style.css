@@ -1,0 +1,53 @@
+h1{
+    color: #0000ff;
+    font-style: italic;
+    margin-left: 150px;
+    font-weight: bolder;
+}
+
+img{
+    border: 3px solid #ff0000;
+    width: 230px;
+    height: auto;
+    padding: 5px;
+   
+    
+}
+
+nav{
+    background-color: #ffc0cb;
+}
+
+h2{
+    color: #0000ff;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+p{
+    text-indent: 16px;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+p::first-letter{
+    color: #0000ff;
+    font-weight: bold;
+}
+
+th:nth-child(2n+1){
+    background-color: #ffc0cb;
+}
+
+th:nth-child(2n){
+    background-color: rgba(116, 108, 99, 0.20);
+}
+
+td:nth-child(2n+1){
+    background-color: #ffc0cb;
+}
+
+td:nth-child(2n){
+    background-color: rgba(116, 108, 99, 0.20);
+}
